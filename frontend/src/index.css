@@ -1,0 +1,51 @@
+:root {
+  --text: #e7edf6;
+  --text-strong: #f8fafc;
+  --text-muted: #94a3b8;
+  --bg: #080d14;
+  --panel-bg: #111923;
+  --panel-raised: #16212e;
+  --field-bg: #0c131c;
+  --border: #263445;
+  --border-strong: #3a4b61;
+  --accent: #38bdf8;
+  --accent-strong: #0ea5e9;
+  --accent-soft: rgba(56, 189, 248, 0.12);
+  --danger: #fb7185;
+
+  font-family: system-ui, 'Segoe UI', 'Malgun Gothic', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% -20%, rgba(56, 189, 248, 0.08), transparent 42%),
+    var(--bg);
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text-strong);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
