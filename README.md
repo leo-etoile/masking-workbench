@@ -31,6 +31,22 @@ Set `ANTHROPIC_API_KEY` in your environment before using the `llm_prompt`
 module — it's read from the environment only, nothing is hardcoded or
 committed.
 
+```bash
+# macOS / Linux (current shell only)
+export ANTHROPIC_API_KEY="your-key-here"
+
+# macOS / Linux (persist across new terminals, zsh default on macOS)
+echo 'export ANTHROPIC_API_KEY="your-key-here"' >> ~/.zshrc && source ~/.zshrc
+```
+
+```powershell
+# Windows (current shell only)
+$env:ANTHROPIC_API_KEY = "your-key-here"
+
+# Windows (persist across new terminals)
+setx ANTHROPIC_API_KEY "your-key-here"
+```
+
 Run the API:
 
 ```powershell
